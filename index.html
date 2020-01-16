@@ -1,0 +1,91 @@
+<html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="../resetCSS.css">
+        <link rel="stylesheet" href="jompy.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script defer src="moment/moment.js"></script>
+        <head>
+<title>Work day schedule</title>
+</head>
+<body onLoad="renderTime();" background= "assets/interlaced.png">
+    <header>
+        <h1>Work Day Schedule</h1>
+        <br>
+        <div id="clockDisplay" class="container"></div>
+    </header>
+    <hr style="background-color: aquamarine; height: 5px";>
+    <div id="container" class= "schedule-container">
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="0900">0900</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="0900" dataTime="0900" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="0900" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1000">1000</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1000" dataTime="1000" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1000" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1100">1100</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1100" dataTime="1100" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1100" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1200">1200</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1200" dataTime="1200" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1200" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1300">1300</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1300" dataTime="1300" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1300" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1400">1400</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1400" dataTime="1400" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1400" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1500">1500</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1500" dataTime="1500" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1500" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1600">1600</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1600" dataTime="1600" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1600" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2" class="1700">1700</div>
+        <div class="col-md-6" style="padding: 0px;">
+            <input class="text" id="1700" dataTime="1700" type="text"></input></div>
+        <div class="col-md-2">
+            <button class="saveBtn" dataTime="1700" type="button">Unlock/Save</button></div>
+        <div class="col-md-1"></div>
+</div>
+    <script defer src="java.js"></script>
+    </body>
+</html>
